@@ -1,6 +1,13 @@
 body {background-color: rgb(199,222,255);}
 
-
+body {
+  background-image: url("../images/q.jpg");
+  filter: brightness(100%);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #FFFFFF;
+}
 
 
 header {
