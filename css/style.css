@@ -2,7 +2,7 @@ body {background-color: rgb(199,222,255);}
 
 
 header {
-Background-color: rgb(257,200,250);  
+Background-color: rgb(240,220,240);  
 Font-family: "Andale Mono", AndaleMono, monospace; 
 color: black;
 Text-align: center;
@@ -165,7 +165,7 @@ li.dropdown {
   margin-left: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: RGB(152,60,143);
+  background-color: RGB(152,90,153);
   Font-family: "Andale Mono", AndaleMono, monospace; 
   text-transform: uppercase;
   font-weight: bold;
