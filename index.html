@@ -2,18 +2,23 @@
 <html lang="en">
 
 <head>
-  <title>Rain Jacket</title>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+<title>Rain Jacket | Immigration, Basic Needs & Community Resources</title>
+<meta name="description" content="Rain Jacket provides information on immigration, refugees, basic needs, entrepreneurship, and community resources for Canadians.">
   <meta name="google-site-verification" content="VECWFaIpHy1tPp1oKrRGWrrWc2qgucV-0YU4xxH23d0" />
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
-  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+ 
+ 
 
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header>Rain Jacket</header>
-  <nav class="navbar">
+
+  <header><h1>Rain Jacket</h1></header>
+
+    <nav class="navbar" aria-label="Main Navigation">
     <ul class="navbar-menu">
       <li><a href="pages/imrb.html">Immigration & Refugees</a></li>
       <li><a href="pages/basicneeds.html">Basic Needs</a></li>
@@ -22,17 +27,30 @@
       <li><a href="pages/feedbackandcompliments.html">Feedback & Compliments</a></li>
     </ul>
   </nav>
-
+<main>
   <p class="p">Welcome</p>
 
   <p class="par">In the information environment, the process of decision making can lead to suboptimal outcomes.</p>
   <p class="par">This website has been created to assist everyone with the opportunity to obtain important information required for research and development.</p>
 
   <p class="ty">Thank You.</p>
+</main>
 
-  <div class="f">
-    Created by: <a href="https://acfirminc.com/" target="_blank">A. CF Inc.</a><br>
-  </div>
+<footer class="f">
+  <p>
+    &copy; <span id="year"></span> A. CF Inc. All Rights Reserved.
+  </p>
+  <p>
+    Created by 
+    <a href="https://acfirminc.com/" target="_blank" rel="noopener noreferrer external">
+      A. CF Inc.
+    </a>
+  </p>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
 </body>
 
