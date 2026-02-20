@@ -5,10 +5,19 @@
   box-sizing: border-box;
 }
 
-body {background-color: rgb(199,222,255);
+
+body {
+background-color: rgb(199,222,255);
 font-family: "Andale Mono", AndaleMono, monospace;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
 }
 
+main {
+  flex: 1;
+  padding: 0 20px;
+}
 
 header {
 background-color: rgb(240,220,240);  
@@ -23,12 +32,20 @@ border-bottom: 2px solid black;
 padding: 30px;
 }
    
-.par, .p, .ty, .a, .f {
+.pageintro
+{
+text-align: justify;
+margin:0;
+padding: 20px 0;
+line-height: 1.6;
+
+}
+.par, .p, .ty, .a{
 letter-spacing: 0;
 line-height: 1.5;
 font-family: "Andale Mono", AndaleMono, monospace; 
 color: black;
-Text-align: center;
+text-align: center;
 margin-left: 20px;
 padding: 10px;
 }
@@ -36,27 +53,54 @@ padding: 10px;
 .par {
 font-size: 1.5em;
 padding-top: 30px;
+text-align: center;
 }
 
 .p {
 font-weight: bold;
 text-transform: uppercase;
 font-size: 2.1em;
+text-align: center;
 }
 
 .ty {
 font-weight: bold;
 font-size: 1.60em;
+text-align: center;
+padding: 20px 0;
 }
 
 
 .a {
 font-size: 1.50em;
+text-align: center;
 }
 
 .f {
 font-weight: bold;
 font-size: 1em;
+text-align: center;
+padding: 30px;
+background-color: rgb(240,220,240);
+border-top: 2px solid black;
+margin-top: 40px;
+width: 100%;
+}
+
+.f a {
+  color: black;
+  text-decoration: none;
+}
+
+.f a:hover {
+  text-decoration: underline;
+}
+
+.tabletitle
+{
+  text-align: center;
+  font-size: 2em;
+  margin: 30px 0 15px 0;
 }
 
 table {
@@ -76,7 +120,7 @@ font-weight: bold;
 height: 50px;
 padding: 15px;
 text-align: center;
-vertical-align: Center;
+vertical-align: middle;
 border: 2px solid black;	
 }
 
@@ -86,11 +130,15 @@ th {
 background-color: grey;
 color: white;
 font-size: 25px;
+font-size: 1.5em;
 }
 
 td {
+font-weight: normal;
+text-transform: none;
 color: black;
 font-size: 20px;
+font-size: 1.2em;
 }
 
 tr:hover {background-color: beige;}
@@ -156,6 +204,7 @@ li a, .dropbtn {
   .navbar-menu li {
     display: block;
     text-align: left;
+    float: none;
   }
 
   table th, table td {
